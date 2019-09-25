@@ -1,0 +1,15 @@
+.main-color {
+  color: black;
+}
+
+.sub-color {
+  color: #c0c0c0;
+}
+
+.secondary-color {
+  color: #a8a7a3;
+}
+
+.link:hover{
+  color: #00aee8;
+}

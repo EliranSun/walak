@@ -1,0 +1,13 @@
+#search-icon {
+  background-repeat: no-repeat;
+  background-position: -75px 2px;
+  height: 26px;
+  width: 26px;
+  display: inline-block;
+}
+
+input[type="text"] {
+  height: 26px;
+  border: none;
+  outline: none;
+}

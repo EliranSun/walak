@@ -1,0 +1,42 @@
+#walak-header {
+  text-align: center;
+  background-color: white;
+}
+
+#walak-logo {
+  padding: 15px 0;
+  cursor: pointer;
+}
+
+#walak-logo h1 {
+  font-size: 57px;
+  font-weight: bold;
+  margin: 0 auto;
+  letter-spacing: -3px;
+  line-height: 1;
+}
+
+#walak-logo h2 {
+  font-size: 19px;
+  font-weight: normal;
+  margin: 0 auto;
+  /* color: #c0c0c0; */
+  line-height: 1;
+}
+
+#walak-header hr {
+  margin: 0;
+}
+
+#walak-header ul {
+  text-align: center;
+  padding: 0;
+  margin: 0 auto;
+}
+
+#walak-header li {
+  cursor: pointer;
+  font-weight: bold;
+  display: inline-block;
+  margin: 5px;
+}

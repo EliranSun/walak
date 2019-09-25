@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`header it should render a div 1`] = `
+<div
+  id="walak-header"
+  style={Object {}}
+>
+  <div
+    className="link"
+    id="walak-logo"
+  >
+    <h1
+      className="main-color"
+      id="walak-title"
+      style={Object {}}
+    >
+      וואלק
+    </h1>
+    <h2
+      className="sub-color"
+      id="walak-sub-title"
+    >
+      מה שעולה לראש
+    </h2>
+  </div>
+  <hr />
+  <ul
+    className="secondary-color"
+  >
+    <li
+      className="link"
+    >
+      אודות
+    </li>
+    <li
+      className="link"
+    >
+      הכותבים
+    </li>
+  </ul>
+  <Search />
+</div>
+`;
