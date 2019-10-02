@@ -32,4 +32,11 @@ describe('header', () => {
     let tree = component.toJSON();
     expect(tree.children[3].props.id).toEqual('search-component');
   });
+
+  it('should pass needed props to Search component', () => {
+    const component = renderer.create(<Header />);
+    let tree = component.toTree();
+    const propsNames = Object.keys(tree.rendered.rendered[3].props);
+    expect(propsNames).toEqual(['articles', 'updateSearchResults']);
+  });
 });

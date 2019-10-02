@@ -13,7 +13,7 @@ const titleStyle = {
   // fontSize: '42px'
 };
 
-export const Header = () => {
+export const Header = ({ articles, updateSearchResults }) => {
   return (
     <div id="walak-header" style={ headerStyle }>
       {/* <img alt="Walak Logo" src="../../public/assets/Walak.png" /> */ }
@@ -26,7 +26,9 @@ export const Header = () => {
         <li className="link">אודות</li>
         <li className="link">הכותבים</li>
       </ul>
-      <Search />
+      <Search
+        articles={ articles }
+        updateSearchResults={ updateSearchResults } />
     </div>
   );
 };

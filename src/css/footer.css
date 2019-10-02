@@ -1,0 +1,23 @@
+#walak-footer::before {
+  content: '';
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  height: 600px;
+  background: url(../assets/streifen-verlauf.png);
+  background-repeat-x: repeat;
+  background-repeat-y: no-repeat;
+}
+
+#walak-footer {
+  width: 100%;
+  height: 300px;
+  text-align: center;
+  background-color: rgba(205,203,198,0.2);
+  clear: both;
+  font-size: 13px;
+  line-height: 19px;
+  position: relative;
+}
