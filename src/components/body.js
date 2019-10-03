@@ -6,7 +6,7 @@ import '../css/body.css';
 const Body = ({ articles }) => {
   return (
     <div id="walak-body" className="articles-body">
-      <h1>אחרונים</h1>
+      {/* <h1>אחרונים</h1> */}
       { articles.map(article => <ArticleCard article={ article } /> ) }
     </div>
   );
