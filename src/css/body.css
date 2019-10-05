@@ -4,7 +4,7 @@
   flex-wrap: wrap;
   margin: 200px auto;
   justify-content: space-between;
-  width: 100%;
+  /* width: 100%; */
   max-width: 1080px;
 }
 
@@ -46,4 +46,24 @@ h2 {
 h3 {
   font-size: 0.8rem;
   font-weight: 100;
+}
+
+@media(max-width: 1140px) {
+  .articles-body {
+    width: 90%;
+  }
+}
+
+@media(max-width: 600px) {
+  .articles-body {
+    width: 100%;
+  }
+
+  .article-card.double, .article-card {
+    flex-basis: 100%;
+  }
+
+  .article-card.double {
+    height: 100vh;
+  }
 }

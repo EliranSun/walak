@@ -10,6 +10,10 @@
   color: #a8a7a3;
 }
 
-.link:hover{
+.link:hover, #header-title:hover {
   color: #00aee8;
+}
+
+#header-title:hover {
+  transition: all 0.2s;
 }

@@ -15,18 +15,20 @@ const titleStyle = {
 
 export const Header = ({ articles, updateSearchResults }) => {
   return (
-    <div id="walak-header" style={ headerStyle }>
+    <div id="header" style={ headerStyle }>
       {/* <img alt="Walak Logo" src="../../public/assets/Walak.png" /> */ }
-      <div id="walak-logo" className="link">
-        <h1 id="walak-title" className="main-color" style={ titleStyle }>וואלק</h1>
-        <h2 id="walak-sub-title" className="sub-color">מה שעולה לראש</h2>
+      <div id="header-logo" className="link">
+        <h1 id="header-title" className="main-color" style={ titleStyle }>וואלק</h1>
+        <h2 id="header-sub-title" className="sub-color">מה שעולה לראש</h2>
       </div>
-      <hr />
-      <ul className="secondary-color">
-        <li className="link">אודות</li>
-        <li className="link">הכותבים</li>
-      </ul>
+      {/* <hr /> */}
+      <div className="column" />
+      <div id="header-navbar">
+        <span className="link">אודות</span>
+        <span className="link">הכותבים</span>
+      </div>
       <Search
+        className="header-search"
         articles={ articles }
         updateSearchResults={ updateSearchResults } />
     </div>

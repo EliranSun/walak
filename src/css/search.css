@@ -1,13 +1,35 @@
+#search-component {
+  display: flex;
+}
+
 #search-icon {
   background-repeat: no-repeat;
   background-position: -75px 2px;
   height: 26px;
   width: 26px;
   display: inline-block;
+  flex: 1;
 }
 
 input[type="text"] {
   height: 26px;
   border: none;
   outline: none;
+  position: absolute;
+  opacity: 0.3;
+}
+
+/* .pos-test {
+  position: absolute;
+} */
+
+.search-placeholder {
+  flex: 2;
+  color: #c9c9c9;
+  font-size: 11px;
+  line-height: 10px;
+  word-spacing: 1px;
+  display: block;
+  text-align: right;
+  max-width: 160px;
 }
