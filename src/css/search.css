@@ -87,3 +87,9 @@ input[type="text"] {
     top: 0;
   }
 }
+
+@media(max-width: 768px) {
+  #search-component {
+    display: none;
+  }
+}

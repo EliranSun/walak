@@ -35,15 +35,12 @@ class Search extends React.Component {
     // הרעיון הגדול הבא
     return (
       <div id="search-component" className={ this.props.className }>
-        {/* <div className="pos-test"> */}
         <div id="search-icon" style={ { backgroundImage: `url(${SearchIcon})` } } />
-        {/* <span class="search-placeholder">אין אנו ממציאים את פשר קיומנו, אלא בעצם - רק מגלים אותו</span> */}
         <input
           className="test"
           placeholder="אין אנו ממציאים את פשר קיומנו, אלא בעצם - רק מגלים אותו"
           onChange={ this.searchAndUpdateGrid }
           type="text" />
-        {/* </div> */}
       </div>
     );
   }
