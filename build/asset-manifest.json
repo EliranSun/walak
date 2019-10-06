@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e3c9702e.chunk.css",
+    "main.js": "/static/js/main.5b1fb8a5.chunk.js",
+    "main.js.map": "/static/js/main.5b1fb8a5.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.84bfd413.js",
+    "runtime-main.js.map": "/static/js/runtime-main.84bfd413.js.map",
+    "static/js/2.d92b289d.chunk.js": "/static/js/2.d92b289d.chunk.js",
+    "static/js/2.d92b289d.chunk.js.map": "/static/js/2.d92b289d.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.848461e7a7b8744d5cdff14e535c44fa.js": "/precache-manifest.848461e7a7b8744d5cdff14e535c44fa.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.e3c9702e.chunk.css.map": "/static/css/main.e3c9702e.chunk.css.map",
+    "static/media/index.css": "/static/media/background-image.3bc67220.jpg",
+    "static/media/heroes2-1.jpg": "/static/media/heroes2-1.394e8e4d.jpg",
+    "static/media/semantics.jpg": "/static/media/semantics.a3948d98.jpg",
+    "static/media/sprites.svg": "/static/media/sprites.d62f707e.svg",
+    "static/media/tesla.jpg": "/static/media/tesla.7722e0b3.jpg",
+    "static/media/that_guy.jpg": "/static/media/that_guy.8dd9ad77.jpg",
+    "static/media/whole_human.jpg": "/static/media/whole_human.5e3c73fc.jpg"
+  }
+}
