@@ -3,15 +3,15 @@ import React from 'react';
 const WPM = 200; // words per minute
 // const PROCRASTINATION_MINUTES = 5;
 
-const ArticleCard = ({ article }) => {
-  const totalWords = article.text.split(' ').length;
+const ArticleCard = ({ article, first }) => {
+  const totalWords = article.text && article.text.split(' ').length;
   const minutes = totalWords / WPM;
   const procrastination = minutes * 0.1;
 
   return (
     <div
       id={ article.id }
-      className={ `article-card ${article.size === 'double' && 'double'}` }>
+      className={ `article-card ${first ? 'double' : 'single'}` }>
       {/* <img src={ article.imgSrc } alt={ article.title } /> */ }
       <div className="body-image" style={{ backgroundImage: `url(${article.imgSrc})` }}></div>
       <div className="body-text">
