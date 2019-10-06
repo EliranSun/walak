@@ -8,8 +8,16 @@ import Footer from './components/footer';
 import articles from './mocks/articles';
 
 class App extends React.Component {
+  constructor() {
+    super();
+
+    this.state = { filteredArticles: articles };
+    this.updateSearchResults = this.updateSearchResults.bind(this);
+  }
+
   updateSearchResults(results) {
-    console.log(results);
+    if (results.length === 0) this.setState({ filteredArticles: articles });
+    else this.setState({ filteredArticles: results });
   }
 
   render() {
@@ -18,7 +26,7 @@ class App extends React.Component {
         <Header
           articles={ articles }
           updateSearchResults={ this.updateSearchResults } />
-        <Body articles={ articles } />
+        <Body articles={ this.state.filteredArticles } />
         <Footer />
       </>
     );

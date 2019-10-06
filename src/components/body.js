@@ -1,5 +1,6 @@
 import React from 'react';
 import ArticleCard from './article-card';
+import ScrollToTop from './scroll-to-top';
 
 import '../css/body.css';
 
@@ -13,7 +14,8 @@ const Body = ({ articles }) => {
           if (articleA.date > articleB.date) return -1;
           return 1;
         })
-        .map((article, index) => <ArticleCard first={ index === 0 } article={ article } />)}
+        .map((article, index) => <ArticleCard first={ index === 0 } article={ article } />) }
+      <ScrollToTop />
     </div>
   );
 };
